@@ -6,6 +6,7 @@ public class Main {
         boolean looping;
         Integer idade;
 
+        System.out.println("Insira a idade:");
         idade = 0;
         do {
             try{
@@ -13,7 +14,7 @@ public class Main {
                 idade = Integer.parseInt(input.next());
             } catch (NumberFormatException e){
                 looping = true;
-                System.out.println("Formato de idade inválido, insira novamente.");}
+                System.out.println("Formato de idade inválido, insira novamente:");}
         } while (looping == true);
         if (idade >= 18 && idade <= 70)
             System.out.println("Voto obrigatório");
