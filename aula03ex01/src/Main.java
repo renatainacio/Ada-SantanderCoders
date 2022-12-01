@@ -16,11 +16,15 @@ public class Main {
                 looping = true;
                 System.out.println("Formato de idade inválido, insira novamente:");}
         } while (looping == true);
+        System.out.println(CheckIdade(idade));
+    }
+
+    private static String CheckIdade(Integer idade){
         if (idade >= 18 && idade <= 70)
-            System.out.println("Voto obrigatório");
+            return("Voto obrigatório");
         else if (idade >= 16 || idade > 70)
-            System.out.println("Voto facultativo");
+            return("Voto facultativo");
         else
-            System.out.println("Sem direito a votar");
+            return("Sem direito a votar");
     }
 }
