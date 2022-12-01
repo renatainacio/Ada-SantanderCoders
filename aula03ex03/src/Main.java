@@ -17,28 +17,26 @@ public class Main {
                 looping = true;
                 System.out.println("Valor recebido não é valido, tente novamente:");}
         } while (looping == true);
+        System.out.println(checkBebida(numeroBebida));
+    }
+
+    private static String checkBebida (int numeroBebida){
         switch (numeroBebida)
         {
             case 1:
-                System.out.println("Coca-Cola - R$ 5");
-                break;
+                return ("Coca-Cola - R$ 5");
             case 2:
-                System.out.println("Coca-Cola 0 - R$ 4.50");
-                break;
+                return ("Coca-Cola 0 - R$ 4.50");
             case 3:
-                System.out.println("Pepsi - R$ 4,40");
-                break;
+                return ("Pepsi - R$ 4,40");
             case 4:
-                System.out.println("Guaraná Antarctica - R$ 3,50");
-                break;
+                return ("Guaraná Antarctica - R$ 3,50");
             case 5:
-                System.out.println("Fanta Laranja - R$ 4,23");
-                break;
+                return ("Fanta Laranja - R$ 4,23");
             case 6:
-                System.out.println("Água - R$ 2,50");
-                break;
+                return ("Água - R$ 2,50");
             default:
-                System.out.println("Input inválido.");
+                return ("Input inválido.");
         }
     }
 }
