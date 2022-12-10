@@ -1,7 +1,7 @@
 public class Pessoa {
-    String nome;
-    String cpf;
-    int dataNascimento;
+    private String nome;
+    private String cpf;
+    private int dataNascimento;
 
     public Pessoa() {
     }
