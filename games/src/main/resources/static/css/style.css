@@ -1,0 +1,93 @@
+
+body{
+    font-size: 16px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e7edd3;
+}
+
+h1{
+    color: #799c08;
+    font-size: 30px;
+}
+
+.button-std {
+    width: 10%;
+    padding: 10px 0;
+    background: #8db806;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    margin: 10px 20px;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #b8d952;
+}
+
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid darkolivegreen;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+a{
+    color: white;
+    font-weight: bold;
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+#search{
+    display: inline;
+    padding: 5px 30px;
+}
+
+#search {
+    margin: 40px 0;
+}
+
+#search label, #search legend{
+    display: block;
+    font-size: 16px;
+    margin: 0 0 8px;
+}
+
+input {
+    display: block;
+    margin: 0 0 10x;
+    padding: 5px 30px;
+    width: 20%;
+}
+
+#excluir {
+    padding: 5px 40px;
+    text-align: center;
+    background: #8db806;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}

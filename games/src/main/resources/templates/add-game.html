@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adicionar Game</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+  <h1>Adicionar Game</h1>
+  <form th:action="@{games}" method="post">
+    <label for="name">Nome</label>
+    <input type="text" id="name" name="name">
+    <br>
+    <label for="developer">Developer</label>
+    <input type="text" id="developer" name="developer">
+    <br>
+    <label for="publisher">Publisher</label>
+    <input type="text" id="publisher" name="publisher">
+    <br>
+    <label for="platforms">Plataformas</label>
+    <input type="text" id="platforms" name="platforms">
+    <br>
+    <label for="genre">Gênero</label>
+    <input type="text" id="genre" name="genre">
+    <br>
+    <label for="score">Nota</label>
+    <input type="text" id="score" name="score">
+    <br>
+    <button type="submit" class="button-std">Salvar</button>
+  </form>
+</body>
+</html>
